@@ -1,9 +1,4 @@
-let API_KEY = localStorage.getItem("API_KEY");
-if (!API_KEY) {
-    API_KEY = prompt("Enter your API key");
-    localStorage.setItem("API_KEY", API_KEY);
-}
-
+let API_KEY = "AIzaSyCKIci3U9lMK3kJkzmvJUpT7kMywTjBhWU";
 const BASE_URL = "https://www.googleapis.com/youtube/v3/search";
 const VIDEO_DETAILS_URL = "https://www.googleapis.com/youtube/v3/videos";
 
